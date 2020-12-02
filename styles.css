@@ -1,0 +1,50 @@
+.container {
+  height: 81.8vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.container .row1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container h1 {
+  color: red;
+  font-size: 2.5rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .cam img {
+  height: 4.5vh;
+  margin: 8px;
+  margin-bottom: 0;
+}
+.header .icn {
+  display: flex;
+  justify-content: space-between;
+}
+.header .icn img {
+  height: 4.5vh;
+  margin: 8px;
+  margin-bottom: 0;
+}
+.header .heading img {
+  height: 6vh;
+  margin-bottom: 0;
+}
+
+.footer .footericons {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footericons img {
+  height: 5vh;
+}
+@media only screen and (max-width: 360px) {
+  .container {
+    height: 79vh;
+  }
+}
